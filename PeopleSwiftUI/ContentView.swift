@@ -9,18 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(People.default){ people in
+            PeopleView(people: people)
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct PeopleView: View {
+    var people: People
+    
+    var body: some View {
+        HStack {
+            Image(people.imageName)
+                .resizable() // Permet de redimensionner l'image
+                .frame(width: 100, height: 100) // Définit les dimensions de l'image
+                .clipShape(Circle())
+            Text(people.name)
+                .font(.title)
+        }
     }
 }
