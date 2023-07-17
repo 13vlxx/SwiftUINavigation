@@ -9,9 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List(People.default){ people in
-            PeopleView(people: people)
+        
+        NavigationView {
+            List(People.default){ people in
+                
+                NavigationLink(destination: PeopleDetailView(people: people)){
+                    PeopleView(people: people)
+                }
+            }.navigationBarTitle("Mes saiyans", displayMode: .large)
         }
+
+        // .ignoresSafeArea()
     }
 }
 
@@ -33,6 +41,7 @@ struct PeopleView: View {
                 .clipShape(Circle())
             Text(people.name)
                 .font(.title)
-        }
+            
+        }.padding()
     }
 }

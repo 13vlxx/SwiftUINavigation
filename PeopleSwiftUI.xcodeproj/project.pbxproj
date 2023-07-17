@@ -12,6 +12,7 @@
 		FA03D8F92A65A0CA008E15E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA03D8F82A65A0CA008E15E9 /* Assets.xcassets */; };
 		FA03D8FC2A65A0CA008E15E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA03D8FB2A65A0CA008E15E9 /* Preview Assets.xcassets */; };
 		FA03D9032A65A10A008E15E9 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03D9022A65A10A008E15E9 /* People.swift */; };
+		FA03D9052A65C318008E15E9 /* PeopleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03D9042A65C318008E15E9 /* PeopleDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FA03D8F82A65A0CA008E15E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA03D8FB2A65A0CA008E15E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA03D9022A65A10A008E15E9 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		FA03D9042A65C318008E15E9 /* PeopleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				FA03D8F42A65A0C9008E15E9 /* PeopleSwiftUIApp.swift */,
 				FA03D8F62A65A0C9008E15E9 /* ContentView.swift */,
 				FA03D9022A65A10A008E15E9 /* People.swift */,
+				FA03D9042A65C318008E15E9 /* PeopleDetailView.swift */,
 				FA03D8F82A65A0CA008E15E9 /* Assets.xcassets */,
 				FA03D8FA2A65A0CA008E15E9 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA03D9052A65C318008E15E9 /* PeopleDetailView.swift in Sources */,
 				FA03D8F72A65A0C9008E15E9 /* ContentView.swift in Sources */,
 				FA03D9032A65A10A008E15E9 /* People.swift in Sources */,
 				FA03D8F52A65A0C9008E15E9 /* PeopleSwiftUIApp.swift in Sources */,
